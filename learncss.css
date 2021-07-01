@@ -1,0 +1,133 @@
+div{ /*all div*/
+    /*background: red;
+    color: white;*/
+}
+
+#email { /*id*/
+    background: red;
+    font-family: "Book Antiqua", serif;
+}
+#form2{ /*id*/
+    font-family: "Bodoni MT", sans-serif;
+    font-size: larger;
+}
+
+body{ /*body*/
+    background-color: aqua;
+}
+
+.movie{ /*class*/
+    color: darkseagreen;
+    background: darkgreen;
+}
+
+span#book{ /*span*/
+    text-transform: uppercase;
+}
+
+ol{ /*ordered list*/
+    color: mediumorchid;
+}
+
+ul{ /*unordered list*/
+    color: olivedrab;
+}
+
+h3 + p{ /*selects p right after h3*/
+    color: steelblue;
+    background: orangered;
+}
+
+p[id]{ /*select all p with an id*/
+    color: #001b50;
+    border: 5px solid #00bb21;
+}
+
+span[id]{ /*select all span with an id*/
+    color: #0770ff;
+    border: 5px dotted #00bb21;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto;
+}
+
+#textItalic{ /*select by id*/
+    font-style: italic;
+}
+
+#textBold{
+    font-weight: bold;
+}
+
+#textFont{
+    font-size: 300%;
+}
+
+#textLineHeight{
+    line-height: 4em;
+}
+
+#container{
+    background: darkslategrey;
+    border: 2px solid black;
+    border-radius: 10px; /*rounds corner*/
+}
+
+#centered{
+    background: darksalmon;
+    width: 50%;
+    margin: auto;
+}
+
+#centered-text{
+    text-align: center;
+}
+
+#top-left{
+    background: deeppink;
+    border: 1px solid black;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+#bottom-right{
+    background: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 5; /*higher index will be shown on top*/
+}
+
+#fixed-position{
+    position: fixed; /*fixed position relative to screen*/
+    background: black;
+    color: white;
+}
+
+#relative-1{
+    background: lightblue;
+    border: 1px solid black;
+    height: 50px;
+}
+
+#relative-2{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    background: darkkhaki;
+}
+
+#butter{ /*select all image*/
+    float: right; /*move to right most*/
+}
+
+#overflow{
+    width: 50px;
+    padding: 10px;
+    margin: 100px auto;
+    background: burlywood;
+
+    max-height: 100px;
+    overflow: scroll; /*scrolling bar*/
+}
+
