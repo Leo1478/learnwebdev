@@ -1,3 +1,172 @@
 a:hover{ /*when mouse is hovering over a*/
+    background: blue;
+    color: white;
+}
+
+a:active{ /*when clicking*/
 
 }
+
+a:visited{ /*when visited website, needs a database*/
+    background: black;
+}
+
+body{
+    background: #b3c2ff;
+}
+
+#wrapper{
+    margin: 0 auto;
+    background-color: white;
+    width: 800px;
+    height: 1000px;
+}
+
+header{
+    padding: 0px 0px 10px 0px;
+}
+
+#horizontal-nav:hover{
+    display: block;
+    background: #687eff;
+}
+
+#p1{
+    word-spacing: 10px; /*increase spacing between words*/
+    white-space: nowrap; /*no wrapping*/
+}
+
+#p2{
+    letter-spacing: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,1); /*shadow of border*/
+}
+/*
+#cover-footer{
+    position: absolute;
+    background: #76ff89;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+*/
+
+#footer-wrapper{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+#footer-text{
+    float: right; /*float on the right*/
+    margin: 0;
+    width: 10%;
+    background: darkkhaki;
+}
+
+#copy{
+    clear: right; /*make sure #copy is under floating element*/
+    background: black;
+    color: white;
+}
+
+
+ul{
+    background-color: aqua;
+    list-style-type: lower-greek; /*converts list number to greek letter*/
+}
+
+#p1:after{ /*after p1 id*/
+    content: "aaa" /*add string*/
+}
+
+li:nth-child(2n){ /*select every 2nd list item*/
+    color: red;
+}
+
+#text{
+    text-decoration: line-through; /*cross out text*/
+}
+
+#text-whitespace{
+    white-space: pre; /*keep whitespace same as exactly how it's written
+    otherwise it will remove extra whitespaces*/
+
+    direction: rtl; /*start from right to left*/
+}
+
+#gradient{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(2,0,36,0.10361230673910193) 0%,
+    rgba(39,121,9,0.34170754483433996) 35%,
+    rgba(0,212,255,0.27448065407803746) 100%);
+}
+
+body{
+    background-image: url("image/sad horny noises.png");
+    background-repeat: no-repeat; /*only 1 image for background*/
+}
+
+#transform{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 2px black;
+}
+
+#transform:hover{ /*when hovering mouse over element*/
+    /*transform: scale(2); !*double in size*!*/
+    /*transform: rotate(45deg);*/
+    /*transform: skew(10deg);*/
+    transform: translate(100px);
+
+}
+
+#animation{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 2px black;
+    position:relative;
+    animation-name: anime;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+}
+
+
+@keyframes anime {
+
+    0% {
+        background-color: red;
+        left:0px;
+        top:0px;
+    }
+    25% {
+        background-color: yellow;
+        left:300px;
+        top:0px;
+    }
+    50% {
+        background-color: green;
+        left:300px;
+        top:300px;
+    }
+    75% {
+        background-color: blue;
+        left:0px;
+        top:300px;
+    }
+    100% {
+        background-color: red;
+        left:0px;
+        top:0px;
+    }
+
+}
+
+
+
+
+
