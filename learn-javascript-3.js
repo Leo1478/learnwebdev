@@ -135,3 +135,5 @@ console.log(rectangle.area);
 console.log(rectangle.positionX + ' position x');
 rectangle.area = 100;
 console.log(rectangle.area);
+
+
