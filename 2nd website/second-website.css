@@ -1,0 +1,24 @@
+body{
+    background-color: #90E0EF;
+}
+
+
+nav {
+    height: 50px;
+    background-color: #48CAE4;
+
+}
+
+#buttons button{ /*individual buttons*/
+
+    background-color: #48CAE4;
+    color: white;
+    border: 1px solid #00B4D8;
+    padding: 15px 15px;
+    float: right;
+    cursor: pointer;
+}
+
+#buttons button:hover{
+    background-color: #00B4D8;
+}
