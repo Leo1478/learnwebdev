@@ -1,24 +1,30 @@
+/*stuff for all pages*/
+
+* {
+    font-family: inter, sans-serif;
+}
+
 body{
-    background-color: #90E0EF;
+    background-color: #FAFAFA;
 }
 
 
 nav {
-    height: 50px;
-    background-color: #48CAE4;
+    height: 48px;
+    background-color: #FFFFFF;
 
 }
 
-#buttons button{ /*individual buttons*/
+#buttons a{ /*individual buttons*/
 
-    background-color: #48CAE4;
-    color: white;
-    border: 1px solid #00B4D8;
+    background-color: #FFFFFF;
+    color: black;
     padding: 15px 15px;
     float: right;
     cursor: pointer;
+    text-decoration: none;
 }
 
-#buttons button:hover{
-    background-color: #00B4D8;
+#buttons a:hover{
+    background-color: #F0F0F0;
 }
