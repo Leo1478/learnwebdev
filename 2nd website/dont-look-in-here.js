@@ -1,4 +1,4 @@
-var realPassword = "1478";
+var realPassword = "1cyM⌬n";
 
 // check password
 // only frontend
@@ -19,7 +19,7 @@ var checkPassword =  $("#check-password");
 function loadContent(){
     checkPassword.text("correct password");
     checkPassword.css("color", "green");
-    
+
     $("#content").css("display", "inline");
 }
 
